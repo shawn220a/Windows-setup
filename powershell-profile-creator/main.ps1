@@ -16,4 +16,22 @@ function gaa {
 }
 '@ >> $path
 
-notepad $path 
+@'
+function gpsh {
+  git push
+}
+'@ >> $path
+
+@'
+function gpull {
+  git pull
+}
+'@ >> $path
+
+@'
+function gcom {
+  git commit -m
+}
+'@ >> $path
+
+notepad $path
