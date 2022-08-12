@@ -30,7 +30,7 @@ function gpull {
 
 @'
 function gcom {
-  git commit -m
+  git commit
 }
 '@ >> $path
 
